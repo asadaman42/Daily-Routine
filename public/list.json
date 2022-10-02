@@ -1,0 +1,71 @@
+[
+    {
+       "id": "6336e5dd748f9d331eca0896",
+       "guid": "be5dde42-d762-4708-a569-78404ea0b717",
+       "picture": "../src/pictures/prayer1.jpg",
+       "timeRequired": 20,
+       "name": "Ollie Dunn",
+       "heading": "PRAYER",
+       "about": "What is Salah (salat)? Salah (salat) is the Arabic term for the ritual prayer that is obligatory for Muslims to perform five times a day."
+    },
+    
+    {
+       "id": "6336e5dde96adf4b071ede86",
+       "guid": "f73140b9-8461-4f59-b97a-4a09d1fe06c4",
+       "picture": "../src/pictures/exercise1.jpg",
+       "timeRequired": 30,
+       "name": "Wiley Battle",
+       "heading": "PHYSICAL EXERCISE",
+       "about": "Physical exercise is the performance of some activity in order to develop or maintain physical fitness and overall health."
+    },
+ 
+    {
+       "id": "6336e5ddf58f7b5175d8ff03",
+       "guid": "710a7c9c-8ccf-4a0d-88ea-0100427eecd2",
+       "picture": "../src/pictures/cooking1.jpg",
+       "timeRequired": 60,
+       "name": "Haney Webster",
+       "heading": "COOKING",
+       "about": "Cooking, cookery, or culinary arts is the art, science and craft of using heat to prepare food for consumption. Cooking techniques and ingredients vary widely."
+    },
+ 
+    {
+       "id": "6336e5ddc76b10de81810007",
+       "guid": "07e3c349-cfde-463c-b4f8-5b22359b4675",
+       "picture": "../src/pictures/eating1.jpg",
+       "timeRequired": 15,
+       "name": "Hull Wilcox",
+       "heading": "EATING",
+       "about": "Eating (also known as consuming) is the ingestion of food, typically to provide a heterotrophic organism with energy and to allow for growth."
+    },
+ 
+    {
+       "id": "6336e5dd2f488e0fc82b1558",
+       "guid": "8b555359-e70c-4d9a-92b1-16cd5ce0bc49",
+       "picture": "../src/pictures/cleaning1.jpg",
+       "timeRequired": 60,
+       "name": "Crane House",
+       "heading": "CLEANING",
+       "about": "Cleaning is the process of removing unwanted substances, such as dirt, infectious agents, and other impurities, from an object or environment."
+    },
+ 
+    {
+       "id": "6336e5dd2ae1a14518f84a81",
+       "guid": "12f294a0-b90b-459a-98ce-de8b256df0e3",
+       "picture": "../src/pictures/gardening1.jpg",
+       "timeRequired": 20,
+       "name": "Bertha Freeman",
+       "heading": "GARDENING",
+       "about": "Gardening is the practice of growing and cultivating plants as part of horticulture. In gardens, ornamental plants are often grown for their flowers, foliage, or overall appearance."
+    },
+ 
+    {
+       "id": "6336e5dd2ae1a14518f84a49",
+       "guid": "12f294a0-b90b-459a-98ce-de8b256df0g3",
+       "picture": "../src/pictures/study1.jpg",
+       "timeRequired": 20,
+       "name": "Bertha Freeman",
+       "heading": "STUDY",
+       "about": "Studying is not just important for educational development, but also builds personal skills. Having good study skills can improve your confidence, competence, and self-esteem."
+    }
+  ]

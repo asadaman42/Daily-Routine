@@ -1,15 +1,13 @@
 
 import './App.css';
-
-import Dashboard from './components/Dashboard/Dashboard';
-import Cart from './components/Cart/Cart';
+import Homepage from './components/HomePage/Homepage';
 
 
 function App() {
   return (
-    <div className='App row'>
-      <Dashboard></Dashboard>
-      <Cart></Cart>
+    <div>
+      
+      <Homepage></Homepage>
     </div>
   );
 }
