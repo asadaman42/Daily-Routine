@@ -3,6 +3,7 @@ import Product from '../Product/Product';
 import './Homepage.css';
 import {toast} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import FAQ from '../FAQ/FAQ';
 toast.configure()
 
 
@@ -137,8 +138,8 @@ const Homepage = () => {
             </div>
 
             {/* Question And Answer Part */}
-            <div>
-                
+            <div className='mt-4 pt-5'>
+                <FAQ></FAQ>
 
             </div>
         </div>
