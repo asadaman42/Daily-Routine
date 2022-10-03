@@ -4,6 +4,8 @@ import './Homepage.css';
 import {toast} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import FAQ from '../FAQ/FAQ';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faClipboardList} from '@fortawesome/free-solid-svg-icons';
 toast.configure()
 
 
@@ -66,8 +68,9 @@ const Homepage = () => {
     return (
         <div>
             <div className='row m-1'>
-                <div className='col-6 col-md-8 col-lg-9'>
-                    <h1>Daily Routine</h1>
+                <div className='col-6 col-md-7 col-lg-9'>
+                    
+                    <h1 className='my-4'><FontAwesomeIcon icon={faClipboardList} size='1x'></FontAwesomeIcon> <span> </span> Daily Routine</h1>
                     <div className='row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4' >
                         {
                             products.map(product => <Product 
@@ -79,7 +82,7 @@ const Homepage = () => {
                     </div>
                 </div>
 
-                <div className='col-6 col-md-4 col-lg-3'>
+                <div className='col-6 col-md-5 col-lg-3'>
                     <div>
                         <div className='row mb-2'>
                             <img className='col-5 col-md-4 col-lg-3 img-fluid rounded-circle' src="https://i.ibb.co/SwYBKGB/Asad-Photo-1.jpg" alt="" />
@@ -110,25 +113,25 @@ const Homepage = () => {
                     
                     <div className='mt-4'>
                         <h5>
-                            Add A break
+                            Add A break 
                         </h5>
                         <div className='btn-group bg-secondary bg-opacity-50 w-100'>
-                            <a href='#' onClick={addBreakTime} className='forFocus text-decoration-none text-white rounded-circle py-1 px-1 my-2 mx-auto'>10m</a>
-                            <a href='#' onClick={addBreakTime} className='forFocus text-decoration-none text-white rounded-circle py-1 px-1 my-2 mx-auto'>20m</a>
-                            <a href='#' onClick={addBreakTime} className='forFocus text-decoration-none text-white rounded-circle py-1 px-1 my-2 mx-auto'>30m</a>
-                            <a href='#' onClick={addBreakTime} className='forFocus text-decoration-none text-white rounded-circle py-1 px-1 my-2 mx-auto'>40m</a>
-                            <a href='#' onClick={addBreakTime} className='forFocus text-decoration-none text-white rounded-circle py-1 px-1 my-2 mx-auto'>50m</a>
+                            <a href='#' onClick={addBreakTime} className='forFocus text-decoration-none rounded-circle py-1 px-1 my-2 mx-auto'>10m</a>
+                            <a href='#' onClick={addBreakTime} className='forFocus text-decoration-none rounded-circle py-1 px-1 my-2 mx-auto'>20m</a>
+                            <a href='#' onClick={addBreakTime} className='forFocus text-decoration-none rounded-circle py-1 px-1 my-2 mx-auto'>30m</a>
+                            <a href='#' onClick={addBreakTime} className='forFocus text-decoration-none rounded-circle py-1 px-1 my-2 mx-auto'>40m</a>
+                            <a href='#' onClick={addBreakTime} className='forFocus text-decoration-none rounded-circle py-1 px-1 my-2 mx-auto'>50m</a>
                         </div>
                     </div>
 
                     <div className='mt-4'>
-                        <h5> Exercise Details </h5>
+                        <h5 className='mb-4'> Schedule Details </h5>
                         <div className='d-flex justify-content-between'>
-                            <h6> Exercise Time </h6>
+                            <h6> Schedule Time </h6>
                             <p> {time} Minutes </p>
                         </div>
                         <div className='d-flex justify-content-between'>
-                            <h6> Break Time </h6>
+                            <h6> Break Time (Default: 15) </h6>
                             <p> {breakTime} Minutes </p>
                         </div>
                     </div>
@@ -140,7 +143,6 @@ const Homepage = () => {
             {/* Question And Answer Part */}
             <div className='mt-4 pt-5'>
                 <FAQ></FAQ>
-
             </div>
         </div>
         

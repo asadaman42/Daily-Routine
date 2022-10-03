@@ -1,7 +1,16 @@
 .forFocus{
-    background-color:black;    
+    background-color:black;
+    color: white;    
 }
 
-.forFocus:focus{
-    background-color:blue    
+.forFocus:hover{
+    background-color:chartreuse;
+    color: black;  
+    font-weight: 900;  
+  }
+
+  .forFocus:focus{
+    background-color: yellow;
+    font-weight: bold;
+    color: black;    
   }
