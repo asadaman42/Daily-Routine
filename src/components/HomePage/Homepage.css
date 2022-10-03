@@ -1,0 +1,7 @@
+.forFocus{
+    background-color:black;    
+}
+
+.forFocus:focus{
+    background-color:blue    
+  }
