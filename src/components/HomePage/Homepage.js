@@ -68,7 +68,7 @@ const Homepage = () => {
     return (
         <div>
             <div className='row m-1'>
-                <div className='col-6 col-md-7 col-lg-9'>
+                <div className='col-11 col-md-7 col-lg-9 mx-auto'>
                     
                     <h1 className='my-4'><FontAwesomeIcon icon={faClipboardList} size='1x'></FontAwesomeIcon> <span> </span> Daily Routine</h1>
                     <div className='row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4' >
@@ -82,9 +82,9 @@ const Homepage = () => {
                     </div>
                 </div>
 
-                <div className='col-6 col-md-5 col-lg-3'>
+                <div className='col-11 col-md-5 col-lg-3 mx-auto'>
                     <div>
-                        <div className='row mb-2'>
+                        <div className='row my-4'>
                             <img className='col-5 col-md-4 col-lg-3 img-fluid rounded-circle' src="https://i.ibb.co/SwYBKGB/Asad-Photo-1.jpg" alt="" />
                             <div className='col-7 pt-3 ps-0'>
                                 <h6>

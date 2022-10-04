@@ -48,7 +48,7 @@ const FAQ = () => {
                     <div className="accordion-item">
                         <h2 className="accordion-header" id="panelsStayOpen-headingThree">
                             <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                                03 - How javascript event loop works? 
+                                03 - Where to use 'useEffect' excepts data load?  
                             </button>
                         </h2>
                         <div id="panelsStayOpen-collapseThree" className="accordion-collapse" aria-labelledby="panelsStayOpen-headingThree">
